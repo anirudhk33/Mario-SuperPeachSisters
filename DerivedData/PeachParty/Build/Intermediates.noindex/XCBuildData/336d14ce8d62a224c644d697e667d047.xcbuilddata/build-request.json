@@ -1,0 +1,54 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "8f22871fd48c9cc00aea0bb2320e7ddecb193b2da7d487928b9e23729c468283"
+    }
+  ],
+  "containerPath" : "/Users/anirudhkrishna/Downloads/PeachPartyProj/PeachParty.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/anirudhkrishna/Downloads/PeachPartyProj/DerivedData/PeachParty/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/anirudhkrishna/Downloads/PeachPartyProj/DerivedData/PeachParty/Build/Products",
+      "derivedDataPath" : "/Users/anirudhkrishna/Downloads/PeachPartyProj/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/anirudhkrishna/Downloads/PeachPartyProj/DerivedData/PeachParty/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/anirudhkrishna/Downloads/PeachPartyProj/DerivedData/PeachParty/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/anirudhkrishna/Downloads/PeachPartyProj/DerivedData/PeachParty/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
