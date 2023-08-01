@@ -82,13 +82,6 @@ int StudentWorld::init()
 
 int StudentWorld::move()
 {
-    // This code is here merely to allow the game to build, run, and terminate after you hit ESC.
-    // Notice that the return value GWSTATUS_NOT_IMPLEMENTED will cause our framework to end the game.
-//
-//    setGameStatText("Game will end in a few seconds");
-//
-//    if (timeRemaining() <= 0)
-//		return GWSTATUS_NOT_IMPLEMENTED;
     
     if(timeRemaining()==0){
         playSound(SOUND_GAME_FINISHED);

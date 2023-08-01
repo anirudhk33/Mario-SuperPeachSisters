@@ -191,16 +191,6 @@ private:
 	int     m_depth;
 	double  m_size;
 
-	//void moveALittle(double& from, double& to)
-	//{
-	//	static const double DISTANCE = 1.0/ANIMATION_POSITIONS_PER_TICK;
-	//	if (to - from >= DISTANCE)
-	//		from += DISTANCE;
-	//	else if (from - to >= DISTANCE)
-	//		from -= DISTANCE;
-	//	else
-	//		from = to;
-	//}
 };
 
 #endif // GRAPHOBJ_H_

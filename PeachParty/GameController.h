@@ -79,6 +79,7 @@ private:
 	std::map<int, KeyMapInfo> m_keyMap;
 	SpriteManager m_spriteManager;
 
+
 	void setGameState(GameControllerState s);
 	void initDrawersAndSounds();
 	bool passesThruWhenSingleStepping(int key) const;
@@ -95,3 +96,4 @@ inline GameController& Game()
 }
 
 #endif // GAMECONTROLLER_H_
+
